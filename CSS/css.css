@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headerindex{
+    width: 100%;
+    height: 60px;
+    background-color: #18D7C6;
+}
+
+.imglogo{
+    width: 100px;
+    margin-top: -16px;
+    margin-left: 25px;
+    float: left;
+}
+
+.nav{
+    float: left;
+    margin-left: 100px;
+    margin-top: 15px;
+    list-style: none;
+}
+.nav a{
+    float: left;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 5px 10px 5px 10px;
+}
+
+.nav a:hover {
+    background-color: #A3C3B5  ;
+    transition: 0.5s;
+    border-radius: 7px;
+}
